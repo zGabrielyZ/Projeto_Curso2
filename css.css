@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.container{
+   
+    
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    min-height: 800px;
+    /* max-height: 800px; */
+    padding: 40px 2%;
+    background-image: url(capa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    float: right;
+}
+
+header .logo{
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: #ccc;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    float: left;
+    padding: 0 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color:white;
+}
+header li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.chamada1{
+    max-width: 600px;
+    float: right;
+    margin: 140px 150px;
+}
+
+.chamada1 h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+}
+
+.chamada1 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+section.sessao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0 2%;
+    height: 400px;
+    
+}
+
+section.sessao1 .container{
+    max-width: 1000px;
+}
+
+.texto-sesao1{
+    float: left;
+    color: white;
+    width: 50%;
+    margin-top: 60px;
+    padding-left: 80px;
+    position: relative;
+    left: 55px;
+
+
+}
+
+.texto-sesao1 h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+.texto-sesao1 p{
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.texto-sesao1 ul{
+    font-size: 15px;
+    list-style-position: inside;
+
+
+}
+
+.texto-sesao1 ul li{
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.btn1{
+    background-color: #ff703d;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    
+}
+
+
+.device-sessao1{
+    position: relative;
+    top: -30px;
+    float: left;
+    width: 50%;
+    height: 430px;
+    background-image: url(device.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sesao2{
+    padding-top:80px 2%;
+    background-color: white;
+    text-align: center
+
+}
+.sesao2 .container{
+    max-height: 1000px;
+}
+.sesao2 h2{
+    color: #472663;
+    font-weight: 300;
+}
+.sesao2 p{
+    font-size: 17px;
+    margin-top: 30px;
+    max-width: 900px;
+    display: inline-block;
+}
+
+.sesao2 img{
+    width: 80%;
+    margin-top: 30px;
+    position: relative;
+    top: 70px;
+}
+
+.sesao3{
+    width: 100%;
+
+}
+
+
+.wrapper1   {
+    max-width: 600px;
+    float: right;
+    padding:  0 50px;
+}
+
+.part1{
+    color: white;
+    float: left;
+    width: 50%;
+    padding: 140px 0;
+    background-color: #835fa7;
+}
+
+.part1 h2{
+   font-style: italic;
+   font-size: 23px;
+   
+}
+.part1 p{
+   margin-top: 15px;
+   line-height: 35px;
+   font-size: 16px;
+
+}
+
+.part2{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background-color: white;
+    height: 100%;
+}
+
+.sobre-author{
+    
+    float: left;
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+.titulo-author{
+    float: left;
+    width: 100%;
+    
+}
+.titulo-author h2{
+    
+    padding-right: 20px;
+    color: #232323;
+    font-weight: 400;
+    font-size: 25px;
+    
+
+}
+.titulo-author .img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+    position: relative;
+    top: -4px;
+
+}
+
+.wrapper-titulo-author{
+    
+    float: left;
+}
+
+.texto-autor{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.titulo-author p{
+    font-size: 13px;
+    color: #232323;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.texto-autor p{
+    font-weight: bold;
+    color: #232323;
+    font-size: 15px;
+    
+}
+
+.slider-bullets{
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+    padding-left: 30px;
+}
+.slider-bullets span{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background-color: rgb(200, 200, 200);
+    border-radius: 8px;
+    margin-right: 12px;
+    
+    cursor: pointer;
+}
+
+.sesao4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.form h2{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.form p{
+    color: white;
+    font-size:15px;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.form form textarea{
+    width: 100%;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid rgb(200,200,200);
+    height: 160px;
+    margin-top: 8px;
+}
+
+.form form{
+    margin: 15px;
+}
+
+.form form input[type=text]{
+    width: 100%;
+    max-width: 480px;
+    height: 58px;
+    margin-top: 5px;
+    padding-left: 8px;
+    line-height: 58px;
+    font-size: 20px;
+    border: 1px solid rgb(200,200,200);
+}
+
+.form form input[type=submit]{
+    background-color: #ff703d;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: 0;
+}
+
+.map-wrapper{
+    float: left;
+    width: 50%;
+}
+
+.map-wrapper h2{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.map{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+   border: 5px solid rgb(200, 200, 200);
+   top: 0;
+   left: 0;
+}
+
+
+.map-wrapper2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 100%;
+    max-width: 480px;
+}
+ .map-wrapper3{
+    
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    section.sessao1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    .texto-sesao1{
+        width: 100%;
+        position: static;
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        padding-left: 0;
+    }
+
+    .texto-sesao1 ul{
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .btn1{
+        display: inline-block;
+    }
+
+    .texto-sesao1 ul li{
+        float: none;
+        text-align: left;
+    }
+
+    .device-sessao1{
+        display: none;
+    }
+
+    .chamada1{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 100px 0;
+    }
+    
+    .chamada1 h2{
+        
+        font-size: 30px;
+        padding: 0 10px;
+        font-weight: normal;
+        color: white;
+    }
+    
+    .chamada1 p{
+        font-size: 15px;
+        color: white;
+        margin-top: 10px;
+    
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+        min-height: 90vh;
+        /* max-height: 800px; */
+        padding: 40px 2%;
+        background-image: url(capa.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .sesao2{
+        padding-top: 40px;
+    }
+    
+    .map-wrapper3{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 580px) {
+    .part1{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .part2{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .sesao2 img{
+        top: 16px;
+        margin-top: 20px;
+    }
+  
+    .slider-bullets {
+        max-width: 200px;
+        margin-left: 150px;
+        
+    }
+}
+
+
